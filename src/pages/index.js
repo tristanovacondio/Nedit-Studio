@@ -20,7 +20,11 @@ export default (() => {
 			<Text as="p" font="--lead" margin="20px 0 0 0">
 				First we think about what we really need. Really need. We tend to remove as much as possible and in the end we come up with a simple design that we believe fits best in most of the situation.{" "}
 				<br />
-				Nothing extreme, nothing in plastic, nothing useless.{" "}
+				Nothing extreme, nothing in plastic,{" "}
+				<Link href="#www.google.com" target="_self">
+					nothing
+				</Link>
+				{" "}useless.{" "}
 			</Text>
 			<Button font="--lead" margin="20px" lg-background="#868686" lg-color="#000000">
 				Discover our products
