@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, Span, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { Override, Section } from "@quarkly/components";
 export default (() => {
@@ -22,7 +22,9 @@ export default (() => {
 				<br />
 				Nothing extreme, nothing in plastic,{" "}
 				<Link href="#www.google.com" target="_self">
-					nothing
+					<Span>
+						nothing
+					</Span>
 				</Link>
 				{" "}useless.{" "}
 			</Text>
